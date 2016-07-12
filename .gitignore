@@ -1,1 +1,14 @@
-cfg/
+cfg\banned_user.cfg
+cfg\banned_ip.cfg
+cfg\config.cfg
+cfg\pet.txt
+scripts\kb_def.lst
+albedo.tga
+demoheader.tmp
+stats.txt
+textwindow_temp.html
+bin\client.pdb
+bin\server.pdb
+expressions/
+screenshots/
+reslists/
