@@ -1,0 +1,19 @@
+@include "hl2mp.fgd"
+ 
+@PointClass base(Targetname) studio("models/props_combine/combine_mine01.mdl") = item_itemspawner :
+	"A spawner with light and a floating item."
+[
+	item(pointentityclass) : "Item to spawn" : "item_healthvial" : "The name of an Item to spawn."
+	respawntime(float) : "Respawn time" : "10.0" : "Time it takes for the item to respawn."
+	spawnflags(Flags) =
+	[
+		1 : "Spawn without model" : 0
+		2 : "Spawn without light" : 0
+	]
+]
+
+@PointClass base(Item) studio("models/props_lab/labpart.mdl") = item_speedvial : 
+	"Speed vial." 
+[
+	speedtogive(float) : "Speed increase" : "100.0" : "Amount which will be added to the speed of the player."
+]
