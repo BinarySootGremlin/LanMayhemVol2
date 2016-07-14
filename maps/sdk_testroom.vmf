@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "38"
+	"mapversion" "39"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "38"
+	"mapversion" "39"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13593,13 +13593,245 @@ entity
 		"logicalpos" "[0 -7268]"
 	}
 }
+entity
+{
+	"id" "20817"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1536 -2784 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "20837"
+	"classname" "item_itemspawner"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1536 -2720 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "20839"
+	"classname" "item_itemspawner"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1536 -2656 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "20843"
+	"classname" "item_itemspawner"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1536 -2592 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "20845"
+	"classname" "item_itemspawner"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1536 -2528 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "20847"
+	"classname" "item_itemspawner"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1536 -2464 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "20849"
+	"classname" "item_itemspawner"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1536 -2400 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "20865"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1280 -2400 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "20867"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1280 -2464 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "20869"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1280 -2528 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "20871"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1280 -2592 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "20873"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1280 -2656 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "20875"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1280 -2720 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "20877"
+	"classname" "item_itemspawner"
+	"angles" "0 0 0"
+	"item" "item_speedvial"
+	"respawntime" "2"
+	"spawnflags" "1"
+	"origin" "-1280 -2784 -480"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2695.08 -2748.41 -378.254]"
-		"look" "[-2695.74 -2748.44 -379.006]"
+		"position" "[-2063.53 -2758.3 -335.748]"
+		"look" "[-2062.54 -2758.24 -335.886]"
 	}
 }
 cordon
