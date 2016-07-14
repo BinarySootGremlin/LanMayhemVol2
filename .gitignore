@@ -12,3 +12,4 @@ bin/server.pdb
 expressions/
 screenshots/
 reslists/
+cfg/server_blacklist.txt
