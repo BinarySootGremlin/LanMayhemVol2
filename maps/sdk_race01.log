@@ -1,0 +1,948 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4887 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (86 bytes to 86)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.bsp
+Wrote ZIP buffer, estimated size 82092, actual size 81878
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.prt
+  12 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 144
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+73 faces
+107825 square feet [15526822.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+73 patches before subdivision
+2099 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 22517, max 130
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              79/65536         632/524288   ( 0.1%) 
+planes                  92/65536        1840/1310720  ( 0.1%) 
+vertexes                95/65536        1140/786432   ( 0.1%) 
+nodes                   61/65536        1952/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   73/65536        4088/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               41/65536        2296/3670016  ( 0.1%) 
+leaves                  63/65536        2016/2097152  ( 0.1%) 
+leaffaces               97/65536         194/131072   ( 0.1%) 
+leafbrushes             52/65536         104/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              460/512000       1840/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       21808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         148/16777216 ( 0.0%) 
+entdata               [variable]        1074/393216   ( 0.3%) 
+LDR ambient table       63/65536         252/262144   ( 0.1%) 
+HDR ambient table       63/65536         252/262144   ( 0.1%) 
+LDR leaf ambient        12/65536         336/1835008  ( 0.0%) 
+HDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       81878/0        ( 0.0%) 
+physics               [variable]        4887/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 152
+Writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4887 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (86 bytes to 86)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.bsp
+Wrote ZIP buffer, estimated size 82092, actual size 81878
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.prt
+  12 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 144
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+73 faces
+107825 square feet [15526822.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+73 patches before subdivision
+2099 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 22517, max 130
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5504, 1576, 77)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3225, 264, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(755, 18, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(399, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(110, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(58, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(17, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              79/65536         632/524288   ( 0.1%) 
+planes                  92/65536        1840/1310720  ( 0.1%) 
+vertexes                95/65536        1140/786432   ( 0.1%) 
+nodes                   61/65536        1952/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   73/65536        4088/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               41/65536        2296/3670016  ( 0.1%) 
+leaves                  63/65536        2016/2097152  ( 0.1%) 
+leaffaces               97/65536         194/131072   ( 0.1%) 
+leafbrushes             52/65536         104/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              460/512000       1840/2048000  ( 0.1%) 
+edges                  252/256000       1008/1024000  ( 0.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            18/65536          36/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       21808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         148/16777216 ( 0.0%) 
+entdata               [variable]        1332/393216   ( 0.3%) 
+LDR ambient table       63/65536         252/262144   ( 0.1%) 
+HDR ambient table       63/65536         252/262144   ( 0.1%) 
+LDR leaf ambient       163/65536        4564/1835008  ( 0.2%) 
+HDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       81878/0        ( 0.0%) 
+physics               [variable]        4887/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 152
+Writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (86 bytes to 86)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.bsp
+Wrote ZIP buffer, estimated size 82092, actual size 81878
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.prt
+  12 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 144
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+70 faces
+107170 square feet [15432614.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+70 patches before subdivision
+1638 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8450, max 132
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2773, 796, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(689, 57, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(185, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              79/65536         632/524288   ( 0.1%) 
+planes                  90/65536        1800/1310720  ( 0.1%) 
+vertexes                91/65536        1092/786432   ( 0.1%) 
+nodes                   61/65536        1952/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   70/65536        3920/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  63/65536        2016/2097152  ( 0.1%) 
+leaffaces               91/65536         182/131072   ( 0.1%) 
+leafbrushes             52/65536         104/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              434/512000       1736/2048000  ( 0.1%) 
+edges                  239/256000        956/1024000  ( 0.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       19896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         148/16777216 ( 0.0%) 
+entdata               [variable]        1331/393216   ( 0.3%) 
+LDR ambient table       63/65536         252/262144   ( 0.1%) 
+HDR ambient table       63/65536         252/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       81878/0        ( 0.0%) 
+physics               [variable]        4823/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 144
+Writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4823 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (86 bytes to 86)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.bsp
+Wrote ZIP buffer, estimated size 82092, actual size 81878
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.prt
+  12 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 144
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+70 faces
+107170 square feet [15432614.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+70 patches before subdivision
+1638 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8450, max 132
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2773, 796, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(689, 57, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(185, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              79/65536         632/524288   ( 0.1%) 
+planes                  90/65536        1800/1310720  ( 0.1%) 
+vertexes                91/65536        1092/786432   ( 0.1%) 
+nodes                   61/65536        1952/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   70/65536        3920/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  63/65536        2016/2097152  ( 0.1%) 
+leaffaces               91/65536         182/131072   ( 0.1%) 
+leafbrushes             52/65536         104/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              434/512000       1736/2048000  ( 0.1%) 
+edges                  239/256000        956/1024000  ( 0.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       19896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         148/16777216 ( 0.0%) 
+entdata               [variable]        1331/393216   ( 0.3%) 
+LDR ambient table       63/65536         252/262144   ( 0.1%) 
+HDR ambient table       63/65536         252/262144   ( 0.1%) 
+LDR leaf ambient       145/65536        4060/1835008  ( 0.2%) 
+HDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       81878/0        ( 0.0%) 
+physics               [variable]        4823/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 144
+Writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5607 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (86 bytes to 86)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.bsp
+Wrote ZIP buffer, estimated size 82092, actual size 81878
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.prt
+  12 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 144
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+82 faces
+108934 square feet [15686566.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+82 patches before subdivision
+1978 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11838, max 135
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2884, 831, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(698, 57, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(186, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides              91/65536         728/524288   ( 0.1%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes               107/65536        1284/786432   ( 0.2%) 
+nodes                   61/65536        1952/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   82/65536        4592/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               50/65536        2800/3670016  ( 0.1%) 
+leaves                  63/65536        2016/2097152  ( 0.1%) 
+leaffaces              103/65536         206/131072   ( 0.2%) 
+leafbrushes             54/65536         108/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              530/512000       2120/2048000  ( 0.1%) 
+edges                  287/256000       1148/1024000  ( 0.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       24920/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         148/16777216 ( 0.0%) 
+entdata               [variable]        1331/393216   ( 0.3%) 
+LDR ambient table       63/65536         252/262144   ( 0.1%) 
+HDR ambient table       63/65536         252/262144   ( 0.1%) 
+LDR leaf ambient       166/65536        4648/1835008  ( 0.3%) 
+HDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       81878/0        ( 0.0%) 
+physics               [variable]        5607/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 168
+Writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5999 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (86 bytes to 86)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.bsp
+Wrote ZIP buffer, estimated size 82092, actual size 81878
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.prt
+  12 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 144
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+88 faces
+134989 square feet [19438502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+88 patches before subdivision
+2100 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12799, max 137
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2871, 827, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(696, 57, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(186, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              97/65536         776/524288   ( 0.1%) 
+planes                 104/65536        2080/1310720  ( 0.2%) 
+vertexes               111/65536        1332/786432   ( 0.2%) 
+nodes                   61/65536        1952/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   88/65536        4928/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  63/65536        2016/2097152  ( 0.1%) 
+leaffaces              113/65536         226/131072   ( 0.2%) 
+leafbrushes             56/65536         112/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              578/512000       2312/2048000  ( 0.1%) 
+edges                  305/256000       1220/1024000  ( 0.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       26312/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         148/16777216 ( 0.0%) 
+entdata               [variable]        1331/393216   ( 0.3%) 
+LDR ambient table       63/65536         252/262144   ( 0.1%) 
+HDR ambient table       63/65536         252/262144   ( 0.1%) 
+LDR leaf ambient       178/65536        4984/1835008  ( 0.3%) 
+HDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       81878/0        ( 0.0%) 
+physics               [variable]        5999/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 180
+Writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_skylab_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5999 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (86 bytes to 86)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\LanMayhemVol2\maps\sdk_race01.bsp
+Wrote ZIP buffer, estimated size 82092, actual size 81878
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.prt
+  12 portalclusters
+  17 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 144
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 12
+visdatasize:148  compressed from 192
+writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+88 faces
+134989 square feet [19438502.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+88 patches before subdivision
+2100 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 13320, max 137
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2942, 849, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(703, 58, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(186, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(51, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 16/8192          192/98304    ( 0.2%) 
+brushsides              97/65536         776/524288   ( 0.1%) 
+planes                 104/65536        2080/1310720  ( 0.2%) 
+vertexes               111/65536        1332/786432   ( 0.2%) 
+nodes                   61/65536        1952/2097152  ( 0.1%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   88/65536        4928/3670016  ( 0.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               56/65536        3136/3670016  ( 0.1%) 
+leaves                  63/65536        2016/2097152  ( 0.1%) 
+leaffaces              113/65536         226/131072   ( 0.2%) 
+leafbrushes             56/65536         112/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              578/512000       2312/2048000  ( 0.1%) 
+edges                  305/256000       1220/1024000  ( 0.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/32768           0/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices             0/65536           0/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       26312/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         148/16777216 ( 0.0%) 
+entdata               [variable]        1331/393216   ( 0.3%) 
+LDR ambient table       63/65536         252/262144   ( 0.1%) 
+HDR ambient table       63/65536         252/262144   ( 0.1%) 
+LDR leaf ambient       178/65536        4984/1835008  ( 0.3%) 
+HDR leaf ambient        63/65536        1764/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       81878/0        ( 0.0%) 
+physics               [variable]        5999/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 180
+Writing c:\program files (x86)\steam\steamapps\sourcemods\lanmayhemvol2\maps\sdk_race01.bsp
+0 seconds elapsed
