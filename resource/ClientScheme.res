@@ -65,6 +65,7 @@ Scheme
 		"Yellowish"			"255 160 0 255"
 		"Normal"			"255 208 64 255"
 		"Caution"			"255 48 0 255"
+		"Greenish"			"100 255 0 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
 		"Main.Title1.X"		"76"
