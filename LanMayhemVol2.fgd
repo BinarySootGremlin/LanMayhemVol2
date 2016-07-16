@@ -17,3 +17,15 @@
 [
 	speedtogive(float) : "Speed increase" : "100.0" : "Amount which will be added to the speed of the player."
 ]
+
+@SolidClass base(Trigger) = trigger_racestart : 
+	"Area which will not start a racetimer."
+[
+	output OnTrigger(void) : "Fired whenever the trigger is activated."
+]
+
+@SolidClass base(Trigger) = trigger_racegoal : 
+	"Aread which will teleport player back and display the racetime."
+[
+	output OnTrigger(void) : "Fired whenever the trigger is activated."
+]

@@ -36,6 +36,22 @@
 		"digit_ypos" "2"
 	}
 	
+	HudRaceTime
+	{
+		"fieldName"		"HudRaceTime"
+		"xpos"	"c-80"
+		"ypos"  "378"
+		"wide"	"160"
+		"tall"  "36"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+		
+		"digit_xpos" "30"
+		"digit_ypos" "2"
+	}
+	
 	TargetID
 	{
 		"fieldName" "TargetID"
