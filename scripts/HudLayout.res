@@ -39,16 +39,16 @@
 	HudRaceTime
 	{
 		"fieldName"		"HudRaceTime"
-		"xpos"	"c-80"
+		"xpos"	"c-110"
 		"ypos"  "378"
-		"wide"	"160"
+		"wide"	"220"
 		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
 		
-		"digit_xpos" "30"
+		"digit_xpos" "35"
 		"digit_ypos" "2"
 	}
 	
