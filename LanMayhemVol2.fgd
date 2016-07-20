@@ -1,6 +1,6 @@
 @include "hl2mp.fgd"
  
-@PointClass base(Targetname) studio("models/props_combine/combine_mine01.mdl") = item_itemspawner :
+@PointClass base(Origin, Angles) studio("models/props_combine/combine_mine01.mdl") = item_itemspawner :
 	"A spawner with light and a floating item."
 [
 	item(pointentityclass) : "Item to spawn" : "item_healthvial" : "The name of an Item to spawn."
@@ -17,6 +17,12 @@
 [
 	speedtogive(float) : "Speed increase" : "100.0" : "Amount which will be added to the speed of the player."
 ]
+
+@PointClass base(Item) studio("models/items/hevsuit.mdl") = item_superarmor : "Super Armor."
+[
+	maxarmor(integer) : "Max armor" : 200 : "Maxmimum armor the player can get from this."
+]
+
 
 @SolidClass base(Trigger) = trigger_racestart : 
 	"Area which will not start a racetimer."
