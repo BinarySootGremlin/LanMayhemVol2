@@ -23,6 +23,27 @@
 	maxarmor(integer) : "Max armor" : 200 : "Maxmimum armor the player can get from this."
 ]
 
+@PointClass base(Origin, Angles) studio("models/props_combine/combine_mine01.mdl") = item_weaponspawner :
+	"A weapon spawner with light and a floating item."
+[
+	weapon(choices) : "Weapons" : "weapon_smg1" =
+	[
+		"weapon_pistol" : "Pistol"
+		"weapon_ar2" : "Assault Rifle 2"
+		"weapon_rpg" : "Missile Launcher"
+		"weapon_smg1" : "SMG1"
+		"weapon_357" : "357"
+		"weapon_crossbow" : "Crossbow"
+		"weapon_shotgun" : "Shotgun"
+		"weapon_frag" : "Frag Grenade"
+	]
+	respawntime(float) : "Respawn time" : "10.0" : "Time it takes for the weapon to respawn."
+	spawnflags(Flags) =
+	[
+		1 : "Spawn without model" : 0
+		2 : "Spawn without light" : 0
+	]
+]
 
 @SolidClass base(Trigger) = trigger_racestart : 
 	"Area which will not start a racetimer."
