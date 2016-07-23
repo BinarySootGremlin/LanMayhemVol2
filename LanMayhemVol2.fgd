@@ -56,3 +56,9 @@
 [
 	output OnTrigger(void) : "Fired whenever the trigger is activated."
 ]
+
+@SolidClass base(Trigger) = trigger_respawn : 
+	"Area which will respawn any player who touches it."
+[
+	output OnTrigger(void) : "Fired whenever the trigger is activated."
+]
