@@ -36,6 +36,7 @@
 		"weapon_crossbow" : "Crossbow"
 		"weapon_shotgun" : "Shotgun"
 		"weapon_frag" : "Frag Grenade"
+		"weapon_hopwire" : "Vortex Grenade"
 	]
 	respawntime(float) : "Respawn time" : "10.0" : "Time it takes for the weapon to respawn."
 	spawnflags(Flags) =
@@ -60,5 +61,14 @@
 @SolidClass base(Trigger) = trigger_respawn : 
 	"Area which will respawn any player who touches it."
 [
+	output OnTrigger(void) : "Fired whenever the trigger is activated."
+]
+
+@SolidClass base(Trigger) = trigger_gravitychange : 
+	"Will change the gravity of a player on endtouch."
+[
+	gravity(integer) : "New gravity" : 1 : "New gravity value"
+	//gravitydir(angle) : "Gravity change direction" : "0 0 0" : "Angles indicating the direction where the player has to leave the trigger in order to get a new gravity."
+	
 	output OnTrigger(void) : "Fired whenever the trigger is activated."
 ]
